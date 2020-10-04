@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital,wght@0,400;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="py-3">
+        <div class="container flex align-center space-between align-content">
+          <img src="./images/logo.svg" alt="logo" />
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section class="landing">
+        <div class="container flex align-center space-between">
+          <div class="landing-content">
+            <h1>All your files in one secure location, accessible anywhere.</h1>
+            <p>
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+            <div class="get-started">
+              <input type="email" placeholder="Enter your email..." />
+              <button class="btn-primary">Get Started</button>
+            </div>
+          </div>
+          <div class="landing-img">
+            <img src="./images/illustration-1.svg" alt="Illustration" />
+          </div>
+        </div>
+      </section>
+      <section class="productive">
+        <img src="./images/bg-curve-desktop.svg" alt="curv" class="curv" />
+        <div class="bg-productive py-3">
+          <div class="container flex align-center">
+            <div class="productive-content">
+              <div class="productive-intro">
+                <h1>Stay productive, wherever you are</h1>
+                <p>
+                  Never let location be an issue when accessing your files. Fylo
+                  has you covered for all of your file storage needs.
+                </p>
+                <p>
+                  Securely share files and folders with friends, family and
+                  colleagues for live collaboration. No email attachments
+                  required!
+                </p>
+                <span class="productive-link"
+                  >See how Fylo works <img src="./images/icon-arrow.svg" alt=""
+                /></span>
+              </div>
+              <div class="productive-card">
+                <img src="./images/icon-quotes.svg" alt="quotes" />
+                <p>
+                  Fylo has improved our team productivity by an order of
+                  magnitude. Since making the switch our team has become a
+                  well-oiled collaboration machine.
+                </p>
+                <div class="productive-card-attribution">
+                  <img
+                    src="./images/avatar-testimonial.jpg"
+                    alt="Kyle Burton"
+                  />
+                  <div class="author">
+                    <h4>Kyle Burton</h4>
+                    <p>Founder & CEO, Huddle</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="productive-img">
+              <img src="./images/illustration-2.svg" alt="Illustration" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="access py-3">
+        <div class="container flex space-between">
+          <div class="access-content">
+            <h2>Get early access today</h2>
+            <p>
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </p>
+          </div>
+          <div class="access-get-started">
+            <input type="email" placeholder="email@example.com" />
+            <button class="btn-primary">Get Started For Free</button>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container py-3">
+          <img src="./images/logo.svg" alt="logo" />
+          <div class="footer-container flex space-between">
+            <div>
+              <ul>
+                <li>
+                  <img src="./images/icon-phone.svg" alt="phone" /> Phone:
+                  +1-543-123-4567
+                </li>
+                <li>
+                  <img src="./images/icon-email.svg" alt="mail" />
+                  example@fylo.com
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>About Us</li>
+                <li>Jobs</li>
+                <li>Press</li>
+                <li>Blog</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>Contact Us</li>
+                <li>Terms</li>
+                <li>Privacy</li>
+              </ul>
+            </div>
+            <div class="social flex">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <p class="attribution">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by
+            <a href="https://www.frontendmentor.io/profile/RajCutinha"
+              >Raj Cutinha</a
+            >.
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
